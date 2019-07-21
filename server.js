@@ -57,7 +57,7 @@ app.use((error, req, res, next) => {
   res.status(500).json(response);
 });
 
-const PORT = process.env.PORT || 8001;
+const PORT = process.env.PORT || 8000;
 
 app.listen(PORT, () => {
   (`Server listening at http://localhost:${PORT}`
